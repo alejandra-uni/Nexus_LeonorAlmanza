@@ -1,0 +1,15 @@
+C:\Users\Leonor\Desktop\NEXUS\Nexus\Nexus\bin\Debug\net10.0\Nexus.exe
+C:\Users\Leonor\Desktop\NEXUS\Nexus\Nexus\bin\Debug\net10.0\Nexus.deps.json
+C:\Users\Leonor\Desktop\NEXUS\Nexus\Nexus\bin\Debug\net10.0\Nexus.runtimeconfig.json
+C:\Users\Leonor\Desktop\NEXUS\Nexus\Nexus\bin\Debug\net10.0\Nexus.dll
+C:\Users\Leonor\Desktop\NEXUS\Nexus\Nexus\bin\Debug\net10.0\Nexus.pdb
+C:\Users\Leonor\Desktop\NEXUS\Nexus\Nexus\obj\Debug\net10.0\Nexus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leonor\Desktop\NEXUS\Nexus\Nexus\obj\Debug\net10.0\Nexus.AssemblyInfoInputs.cache
+C:\Users\Leonor\Desktop\NEXUS\Nexus\Nexus\obj\Debug\net10.0\Nexus.AssemblyInfo.cs
+C:\Users\Leonor\Desktop\NEXUS\Nexus\Nexus\obj\Debug\net10.0\Nexus.csproj.CoreCompileInputs.cache
+C:\Users\Leonor\Desktop\NEXUS\Nexus\Nexus\obj\Debug\net10.0\Nexus.dll
+C:\Users\Leonor\Desktop\NEXUS\Nexus\Nexus\obj\Debug\net10.0\refint\Nexus.dll
+C:\Users\Leonor\Desktop\NEXUS\Nexus\Nexus\obj\Debug\net10.0\Nexus.pdb
+C:\Users\Leonor\Desktop\NEXUS\Nexus\Nexus\obj\Debug\net10.0\Nexus.genruntimeconfig.cache
+C:\Users\Leonor\Desktop\NEXUS\Nexus\Nexus\obj\Debug\net10.0\ref\Nexus.dll
+C:\Users\Leonor\Desktop\NEXUS\Nexus\Nexus\obj\Debug\net10.0\Nexus.csproj.Up2Date
