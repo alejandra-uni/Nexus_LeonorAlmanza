@@ -2,28 +2,34 @@
 
 ## Propósito de NEXUS
 
-NEXUS es una aplicación de consola desarrollada en C#. Simula un sistema de entrenamiento y exploración de realidades. Solicita datos de un cadete, revisa si cumple las condiciones para conectarse y, si se autoriza la conexión, muestra un menú con distintas operaciones.
+NEXUS es una aplicación de consola desarrollada en C#. Simula un sistema de entrenamiento y exploración de realidades. Solicita los datos de un cadete, comprueba si cumple los requisitos para conectarse y, si se autoriza la conexión, muestra un menú con distintas operaciones.
 
 ## Archivo principal y responsabilidades
 
-- `NEXUS/Nexus/Nexus/Program.cs`: contiene las tres clases principales y la lógica del programa.
-- `Cadete`: guarda el nombre, la edad, la realidad, la energía y la estabilidad de un cadete. Sus métodos permiten recuperar energía, gastar energía, modificar estabilidad y mostrar el estado.
-- `SistemaNexus`: recibe un cadete principal y uno de respaldo, conserva sus referencias y permite consultar los cadetes.
-- `Nexus`: contiene el método de inicio `Main`. Solicita los datos, crea los objetos, verifica la autorización y administra el menú.
-- `NEXUS/Nexus/Nexus/Nexus.csproj`: contiene la configuración del proyecto de C#.
+- **Program.cs:** contiene las clases principales y la lógica del programa.
+- **Cadete:** guarda el nombre, la edad, la realidad, la energía y la estabilidad. Sus métodos permiten recuperar o gastar energía, modificar la estabilidad y mostrar el estado del cadete.
+- **SistemaNexus:** recibe el cadete principal y el cadete de respaldo, guarda las referencias a ambos y permite consultarlos.
+- **Nexus:** contiene el punto de inicio del programa. Solicita los datos, crea los objetos, comprueba la autorización y administra el menú.
+- **Nexus.csproj:** contiene la configuración del proyecto de C#.
 
 ## Relación entre las clases
 
-La clase `Nexus` crea dos objetos de tipo `Cadete` y los entrega al constructor de `SistemaNexus`. `SistemaNexus` guarda las referencias al cadete principal y al cadete de respaldo. La clase `Nexus` también coordina el uso del menú y las operaciones.
+La clase Nexus crea dos objetos Cadete y se los entrega a SistemaNexus. Esta última clase guarda la referencia del cadete principal y la del cadete de respaldo. Nexus coordina el menú y las operaciones.
 
-Esta relación no es herencia: `SistemaNexus` no deriva de `Cadete`; trabaja con objetos de ese tipo.
+SistemaNexus no deriva de Cadete. La relación consiste en que SistemaNexus utiliza y conserva referencias a objetos creados a partir de Cadete; no es una relación de herencia.
 
 ## Programación estructurada y programación orientada a objetos
 
-La programación estructurada se observa en las instrucciones, variables, condiciones y ciclos de `Main`. Por ejemplo, la condición de autorización comprueba la edad, la energía y la estabilidad; el ciclo mantiene el menú activo mientras la conexión continúe.
+La programación estructurada se observa en las instrucciones, las variables, las condiciones y los ciclos. Por ejemplo, el programa comprueba los requisitos de conexión y repite el menú mientras la conexión continúe activa.
 
-La programación orientada a objetos se observa en las clases `Cadete` y `SistemaNexus`, que reúnen datos y operaciones relacionadas. Los objetos creados a partir de esas clases mantienen los datos de cada cadete.
+La programación orientada a objetos organiza los datos y las operaciones en clases. Cadete reúne la información del cadete y las acciones que pueden cambiar su energía o estabilidad.
 
-## Condición de conexión
+## Condiciones de conexión
 
-La conexión se autoriza únicamente si se cumplen las tres condiciones: la edad es de 18 años o más, la energía es de 40 o más y la estabilidad es de 50 o más. Si alguna condición no se cumple, se rechaza la inmersión.
+Para autorizar la conexión, el cadete debe cumplir simultáneamente estos tres requisitos:
+
+1. Tener 18 años o más.
+2. Tener energía igual o superior a 40.
+3. Tener estabilidad igual o superior a 50.
+
+Si una de las condiciones no se cumple, se rechaza la conexión.
