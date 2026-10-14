@@ -2,29 +2,30 @@
 
 ## Descripción del proyecto
 
-NEXUS es un proyecto académico desarrollado en C# para la asignatura de Programación II. Consiste en un sistema interactivo de consola inspirado en la exploración de realidades, donde el usuario puede gestionar cadetes, consultar sus estados y realizar diferentes operaciones relacionadas con la energía, la estabilidad y la exploración.
+NEXUS es un proyecto académico desarrollado en C# para la asignatura de Programación II. Es una aplicación de consola inspirada en la exploración de realidades. Permite registrar los datos de un cadete, revisar su estado y realizar operaciones relacionadas con energía, estabilidad y exploración.
 
-El proyecto permite aplicar conceptos fundamentales de la programación orientada a objetos (POO), como clases, objetos, constructores, encapsulamiento, propiedades y métodos. También incorpora lógica de control mediante menús y condiciones, además de funcionalidades relacionadas con la conectividad de red mediante TCP.
+El proyecto aplica conceptos de programación orientada a objetos, como clases, objetos, constructores, encapsulamiento, propiedades y métodos. También utiliza condiciones, ciclos y un menú de opciones.
 
 ## Objetivo
 
-Desarrollar y mejorar una aplicación en C# que permita comprender el funcionamiento de un programa estructurado mediante clases y objetos, reforzando el análisis de código, la resolución de problemas y la aplicación de los principios de Programación II.
+Desarrollar una aplicación en C# y estudiar cómo se organiza mediante clases y objetos, reforzando el análisis del código y la aplicación de los conceptos de Programación II.
 
 ## Estructura del proyecto
 
-- `NEXUS/Nexus/Nexus/Program.cs`: contiene las clases principales y la lógica de funcionamiento del sistema.
-- `Manual Técnico de Programación II/`: contiene la organización del material de estudio y las secciones del manual técnico.
-- 
+- `NEXUS/Nexus/Nexus/Program.cs`: contiene las clases principales y la lógica del programa.
+- `NEXUS/Nexus/Nexus/Nexus.csproj`: contiene la configuración del proyecto.
+- `Manual Técnico de Programación II/`: contiene las seis secciones del material de estudio para el Hito 3.
+
 ## Manual técnico y preparación para el Hito 3
 
-El proyecto se complementa con un manual técnico orientado al estudio y análisis del código. Este material aborda la arquitectura del sistema, los fundamentos de clases y objetos, la herencia, el polimorfismo, las interfaces, las colecciones genéricas, LINQ y la predicción del comportamiento del programa.
+El manual se organiza por temas: arquitectura y POO; clases y objetos; herencia, polimorfismo e interfaces; colecciones y LINQ; análisis del flujo; y banco de preguntas para el examen.
 
-También incluye preguntas de práctica con respuestas razonadas y un diagnóstico del proceso de aprendizaje, con el propósito de facilitar la preparación para el examen del Hito 3.
+[Consultar el índice del Manual Técnico de Programación II](Manual%20T%C3%A9cnico%20de%20Programaci%C3%B3n%20II/README.md).
+
+Los temas que no están implementados directamente en el código publicado se explican como ejemplos complementarios para el estudio.
 
 ## Autora
 
-**Leonor Alejandra Almanza Arroyo**
+Leonor Alejandra Almanza Arroyo
 
-Proyecto académico de Programación II.
-
-Universidad Privada Franz Tamayo (UNIFRANZ), Cochabamba, Bolivia.
+Proyecto académico de Programación II. Universidad Privada Franz Tamayo (UNIFRANZ), Cochabamba, Bolivia.
