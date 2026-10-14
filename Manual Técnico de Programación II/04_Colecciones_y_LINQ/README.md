@@ -2,29 +2,27 @@
 
 ## Arreglo utilizado en NEXUS
 
-En `Program.cs` hay un arreglo de texto que guarda las realidades disponibles: IRIS-07, IRIS-12 e IRIS-21. Un arreglo tiene una cantidad de posiciones definida cuando se crea.
+En Program.cs se utiliza un arreglo de texto para guardar las realidades disponibles: IRIS-07, IRIS-12 e IRIS-21. Un arreglo tiene una cantidad de posiciones definida al crearse.
 
-En la parte revisada no se identificó una colección `List<Cadete>` ni consultas LINQ. Los apartados siguientes son ejemplos complementarios para estudiar esos temas.
+En la parte del código revisada no se identificó una lista List<Cadete> ni consultas LINQ. Los conceptos siguientes sirven para estudiar esos temas.
 
-## List<T>
+## Listas genéricas
 
-`List<T>` es una lista genérica que puede aumentar o disminuir de tamaño. La letra T representa el tipo de dato que guardará. Por ejemplo, una lista de tipo `List<Cadete>` puede almacenar varios objetos `Cadete`.
+Una lista genérica puede aumentar o disminuir de tamaño. Por ejemplo, una lista de tipo List<Cadete> podría almacenar varios objetos Cadete.
 
-El método `Add` agrega un objeto a la lista. Un ciclo `foreach` permite recorrer los elementos uno por uno y consultar, por ejemplo, el nombre de cada cadete.
+La operación Add agrega un objeto a la lista y Remove permite quitarlo. Un ciclo foreach recorre los elementos uno por uno; por ejemplo, puede consultar el nombre de cada cadete.
 
 ## Expresiones lambda y LINQ
 
-LINQ permite consultar colecciones mediante operaciones como filtrar, ordenar y seleccionar datos. Una expresión lambda es una forma breve de describir una operación o condición para cada elemento.
+LINQ permite consultar colecciones mediante operaciones para filtrar, ordenar y seleccionar datos. Una expresión lambda es una forma breve de indicar una condición o acción que se aplica a cada elemento.
 
-- `Where` filtra y conserva los elementos que cumplen una condición.
-- `Select` selecciona o transforma cada elemento en el dato que interesa.
-- `OrderBy` ordena los resultados según un criterio.
-- `FirstOrDefault` obtiene el primer resultado o el valor predeterminado si no hay coincidencias.
+- **Where** filtra y conserva los elementos que cumplen una condición, por ejemplo, cadetes con energía igual o superior a 50.
+- **Select** selecciona un dato de cada elemento, por ejemplo, el nombre de cada cadete.
+- **OrderBy** ordena los elementos según un criterio, como el nombre.
+- **FirstOrDefault** devuelve el primer resultado o el valor predeterminado cuando no hay coincidencias.
 
 ## Ejemplo explicado
 
-Si se tiene una lista de cadetes, se puede filtrar a quienes tienen energía de 50 o más, ordenar esos cadetes por nombre y mostrar solo sus nombres. Primero se aplica el filtro de energía, luego el orden alfabético y finalmente se selecciona el nombre para mostrarlo.
+Si se tuviera una lista de cadetes, se podría filtrar a quienes tienen energía suficiente, ordenar los resultados por nombre y mostrar solamente sus nombres. Primero se realiza el filtro, después el ordenamiento y finalmente se selecciona el dato que se quiere mostrar.
 
-Una alternativa sin LINQ es recorrer la lista con `foreach` y comprobar cada energía mediante una condición. LINQ reúne las operaciones en una consulta más compacta, pero ambos enfoques pueden servir para resolver la misma tarea.
-
-Para utilizar estas herramientas en C#, normalmente se importan los espacios de nombres de colecciones genéricas y LINQ.
+Una alternativa es recorrer la lista con foreach y comprobar cada elemento mediante una condición. LINQ permite expresar las operaciones de forma más compacta, pero ambas formas pueden resolver la misma tarea.
