@@ -1,4 +1,32 @@
+# Visual Studio
 .vs/
-bin/
-obj/
 *.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Compilación .NET
+**/bin/
+**/obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+
+# Archivos temporales y registros
+*.log
+*.tmp
+*.temp
+*.cache
+
+# Configuración local y secretos
+appsettings.Local.json
+appsettings.*.Local.json
+*.secrets.json
+.env
+.env.*
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
