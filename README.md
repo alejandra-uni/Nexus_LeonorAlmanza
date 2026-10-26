@@ -47,7 +47,7 @@ NEXUS/
 ├── .gitignore
 ├── [solución y código existente]
 ├── docs/
-│   ├── diseno-del-juego.md
+│   ├── diseño-del-juego.md
 │   ├── arquitectura-actual.md
 │   ├── arquitectura-propuesta.md
 │   ├── modelo-de-datos-propuesto.md
@@ -70,7 +70,7 @@ La carpeta `Manual Técnico de Programación II/` se mantiene en la raíz del re
 3. [Arquitectura propuesta](docs/arquitectura-propuesta.md) — separación de Windows Forms, lógica del juego y acceso a datos.
 4. [Modelo de datos propuesto](docs/modelo-de-datos-propuesto.md) — entidades, relaciones y estrategia de persistencia en SQL Server.
 5. [Análisis técnico](docs/analisis-tecnico.md) — alternativas, decisiones, viabilidad, fuentes técnicas y verificación de información obtenida con IA.
-6. [Diagramas y evidencias](docs/evidencias/diagramas.md) — ciclo principal, arquitectura y modelo de datos.
+6. [Diagramas y evidencias](docs/evidencias/diagramas.md) — ciclo principal y arquitectura.
 
 ## Manual técnico para el H3
 
