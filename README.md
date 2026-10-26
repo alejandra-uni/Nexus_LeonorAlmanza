@@ -39,10 +39,29 @@ El proyecto actual no requiere una base de datos SQL Server para ejecutarse. La 
 
 ## Estructura del repositorio
 
-- `NEXUS/Nexus/Nexus/Program.cs`: contiene las clases `Cadete`, `SistemaNexus` y `Nexus`, además de las reglas, el menú y los mapas de la versión H3.
-- `NEXUS/Nexus/Nexus/Nexus.csproj`: configuración del proyecto de consola.
-- `Manual Técnico de Programación II/`: material de estudio del examen H3.
-- `docs/`: diseño del videojuego, análisis de la arquitectura actual y propuesta, modelo de datos y análisis técnico de la evolución.
+La organización de los documentos de evolución sigue la estructura solicitada. Se conserva también, sin eliminar ni reemplazar su contenido, la carpeta del manual técnico de Programación II.
+
+```text
+NEXUS/
+├── README.md
+├── .gitignore
+├── [solución y código existente]
+├── docs/
+│   ├── diseno-del-juego.md
+│   ├── arquitectura-actual.md
+│   ├── arquitectura-propuesta.md
+│   ├── modelo-de-datos-propuesto.md
+│   ├── analisis-tecnico.md
+│   └── evidencias/
+│       └── diagramas.md
+├── Manual Técnico de Programación II/
+│   ├── README.md
+│   └── [secciones y archivos existentes del manual]
+└── NEXUS/
+    └── [solución y código fuente H3 existente]
+```
+
+La carpeta `Manual Técnico de Programación II/` se mantiene en la raíz del repositorio. La carpeta interna `NEXUS/` contiene la solución y el código C# que se desarrollaron para H3; no se reemplazan por los documentos de diseño.
 
 ## Documentación de la evolución
 
