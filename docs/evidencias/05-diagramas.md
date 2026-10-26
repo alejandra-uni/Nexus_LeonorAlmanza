@@ -39,25 +39,5 @@ flowchart TD
     S --> WF
 ```
 
-## 3. Modelo de datos
 
-```mermaid
-erDiagram
-    CADETE ||--o{ PARTIDA : juega
-    REALIDAD ||--o{ MISION : contiene
-    REALIDAD ||--o{ PARTIDA : seleccionada
-    PARTIDA ||--o{ PROGRESOMISION : registra
-    MISION ||--o{ PROGRESOMISION : progresa
-    PARTIDA ||--o{ INVENTARIO : posee
-    RECURSO ||--o{ INVENTARIO : contabiliza
-```
-
-## 4. Evidencias gráficas que se pueden añadir
-
-Cuando se elaboren en una herramienta de dibujo o diseño, guardar aquí archivos con nombres claros, por ejemplo:
-- `wireframe-menu-principal.png`
-- `wireframe-exploracion.png`
-- `wireframe-misiones.png`
-- `wireframe-cadetes-inventario.png`
-
-Los bocetos incluidos en `diseno-del-juego.md` ya sirven como wireframes iniciales. Las imágenes son una mejora visual opcional, salvo que el docente solicite expresamente dibujos gráficos.
+Los bocetos incluidos en `diseño-del-juego.md` ya sirven como wireframes iniciales. Las imágenes son una mejora visual opcional, salvo que el docente solicite expresamente dibujos gráficos. 
