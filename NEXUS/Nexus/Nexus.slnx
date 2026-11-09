@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="Nexus.UI/Nexus.UI.csproj" Id="64bc723e-96a7-4774-8552-23ba30bd6023" />
   <Project Path="Nexus/Nexus.csproj" />
 </Solution>

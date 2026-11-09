@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Leonor\\Desktop\\NEXUS\\Nexus\\Nexus\\Nexus.csproj": {}
+    "C:\\Users\\Leonor\\Desktop\\REPOSITORIO ALMANZA\\NEXUS\\Nexus\\Nexus\\Nexus.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Leonor\\Desktop\\NEXUS\\Nexus\\Nexus\\Nexus.csproj": {
+    "C:\\Users\\Leonor\\Desktop\\REPOSITORIO ALMANZA\\NEXUS\\Nexus\\Nexus\\Nexus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Leonor\\Desktop\\NEXUS\\Nexus\\Nexus\\Nexus.csproj",
+        "projectUniqueName": "C:\\Users\\Leonor\\Desktop\\REPOSITORIO ALMANZA\\NEXUS\\Nexus\\Nexus\\Nexus.csproj",
         "projectName": "Nexus",
-        "projectPath": "C:\\Users\\Leonor\\Desktop\\NEXUS\\Nexus\\Nexus\\Nexus.csproj",
+        "projectPath": "C:\\Users\\Leonor\\Desktop\\REPOSITORIO ALMANZA\\NEXUS\\Nexus\\Nexus\\Nexus.csproj",
         "packagesPath": "C:\\Users\\Leonor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Leonor\\Desktop\\NEXUS\\Nexus\\Nexus\\obj\\",
+        "outputPath": "C:\\Users\\Leonor\\Desktop\\REPOSITORIO ALMANZA\\NEXUS\\Nexus\\Nexus\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
