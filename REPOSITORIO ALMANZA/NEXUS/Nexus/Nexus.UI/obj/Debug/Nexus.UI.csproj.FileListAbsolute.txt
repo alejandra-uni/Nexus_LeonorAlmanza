@@ -1,0 +1,10 @@
+C:\Users\Leonor\Desktop\REPOSITORIO ALMANZA\NEXUS\Nexus\Nexus.UI\obj\Debug\Nexus.UI.csproj.AssemblyReference.cache
+C:\Users\Leonor\Desktop\REPOSITORIO ALMANZA\NEXUS\Nexus\Nexus.UI\obj\Debug\Nexus.UI.FrmPrincipal.resources
+C:\Users\Leonor\Desktop\REPOSITORIO ALMANZA\NEXUS\Nexus\Nexus.UI\obj\Debug\Nexus.UI.Properties.Resources.resources
+C:\Users\Leonor\Desktop\REPOSITORIO ALMANZA\NEXUS\Nexus\Nexus.UI\obj\Debug\Nexus.UI.csproj.GenerateResource.cache
+C:\Users\Leonor\Desktop\REPOSITORIO ALMANZA\NEXUS\Nexus\Nexus.UI\obj\Debug\Nexus.UI.csproj.CoreCompileInputs.cache
+C:\Users\Leonor\Desktop\REPOSITORIO ALMANZA\NEXUS\Nexus\Nexus.UI\bin\Debug\Nexus.UI.exe.config
+C:\Users\Leonor\Desktop\REPOSITORIO ALMANZA\NEXUS\Nexus\Nexus.UI\bin\Debug\Nexus.UI.exe
+C:\Users\Leonor\Desktop\REPOSITORIO ALMANZA\NEXUS\Nexus\Nexus.UI\bin\Debug\Nexus.UI.pdb
+C:\Users\Leonor\Desktop\REPOSITORIO ALMANZA\NEXUS\Nexus\Nexus.UI\obj\Debug\Nexus.UI.exe
+C:\Users\Leonor\Desktop\REPOSITORIO ALMANZA\NEXUS\Nexus\Nexus.UI\obj\Debug\Nexus.UI.pdb
